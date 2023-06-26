@@ -12,6 +12,6 @@ application
     })
 
 
-application.listen(port, () => {
+application.listen(port, "0.0.0.0", () => {
     console.log(`Application listening on port ${port}`);
 });
